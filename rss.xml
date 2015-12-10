@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[cssunderhood]]></title>
+        <description><![CDATA[Коллективный твиттер-аккаунт для верстальщиков, веб-дизайнеров и сочувствующих с новым автором каждую неделю.]]></description>
+        <link>https://cssunderhood.ru/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 10 Dec 2015 05:08:34 GMT</lastBuildDate>
+        <atom:link href="https://cssunderhood.ru/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[MIT]]></copyright>
+        <language><![CDATA[en-us]]></language>
+        <managingEditor><![CDATA[iamstarkov@gmail.com (Vladimir Starkov)]]></managingEditor>
+        <webMaster><![CDATA[iamstarkov@gmail.com (Vladimir Starkov)]]></webMaster>
+        <category><![CDATA[frontend]]></category>
+        <category><![CDATA[css]]></category>
+        <category><![CDATA[twitter]]></category>
+        <item>
+            <title><![CDATA[grawlcore]]></title>
+            <description><![CDATA[Доброе утро! Эту неделю с вами Даниил Пронин @grawlcore, и я очень рад быть ведущим.]]></description>
+            <link>https://cssunderhood.ru/grawlcore/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/grawlcore/</guid>
+            <pubDate>Mon, 30 Nov 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dshster]]></title>
+            <description><![CDATA[Доброе утро понедельника! Эту неделю в эфире Дмитрий Швалёв @dshster, г. Казань.]]></description>
+            <link>https://cssunderhood.ru/dshster/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/dshster/</guid>
+            <pubDate>Mon, 23 Nov 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fliptheweb]]></title>
+            <description><![CDATA[Всем привет! Эту неделю с вами буду я — Артур Корнаков @fliptheweb. Работаю в aviasales.ru на острове Пхукет, Таиланд.]]></description>
+            <link>https://cssunderhood.ru/fliptheweb/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/fliptheweb/</guid>
+            <pubDate>Mon, 16 Nov 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[talgautb]]></title>
+            <description><![CDATA[Всем саламалейкум! Эту неделю с вами Талга УтБ @talgautb пишу из Астаны, Казакстан, во славу вёрстки, конечно 😊 https://t.co/y6LIFIOP6x]]></description>
+            <link>https://cssunderhood.ru/talgautb/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/talgautb/</guid>
+            <pubDate>Mon, 09 Nov 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vafelman]]></title>
+            <description><![CDATA[Привет! Меня зовут Таня @vafelman, я верстальщик, в ближайшую неделю буду вести этот твиттер :-)]]></description>
+            <link>https://cssunderhood.ru/vafelman/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/vafelman/</guid>
+            <pubDate>Mon, 02 Nov 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[exdeniz]]></title>
+            <description><![CDATA[Всем привет. Эту неделю проведу я - @exdeniz. Меня зовут Игорь и я верстальщик. Занимаюсь профессионально версткой уже года три.]]></description>
+            <link>https://cssunderhood.ru/exdeniz/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/exdeniz/</guid>
+            <pubDate>Mon, 26 Oct 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mishcherin]]></title>
+            <description><![CDATA[Привет! С вами на этой неделе @mishcherin]]></description>
+            <link>https://cssunderhood.ru/mishcherin/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/mishcherin/</guid>
+            <pubDate>Mon, 19 Oct 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[akella]]></title>
+            <description><![CDATA[Привет верстальщикам! Эту неделю с вами @akella. Верстаю что попало уже 10 лет и никак не могу остановиться. Блог http://t.co/LNJyuUuKYp]]></description>
+            <link>https://cssunderhood.ru/akella/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/akella/</guid>
+            <pubDate>Mon, 12 Oct 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bizi]]></title>
+            <description><![CDATA[Доброе утро, верстальщики! Следующие 7 дней твиттер ведёт Александр Бизиков (@Bizi). Кувандык (Оренбургская область).]]></description>
+            <link>https://cssunderhood.ru/bizi/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/bizi/</guid>
+            <pubDate>Mon, 05 Oct 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[arseniydmitriev]]></title>
+            <description><![CDATA[Доброе утро! Следующие 7 дней буду с Вами @arseniydmitriev, дизайнер из Минска.]]></description>
+            <link>https://cssunderhood.ru/arseniydmitriev/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/arseniydmitriev/</guid>
+            <pubDate>Mon, 28 Sep 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Akurganow]]></title>
+            <description><![CDATA[Привет, на этой неделе с вами @Akurganow, я фронтендщик из Питера, работаю в студии Михаила Кечинова.]]></description>
+            <link>https://cssunderhood.ru/Akurganow/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/Akurganow/</guid>
+            <pubDate>Mon, 21 Sep 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mr_skriming]]></title>
+            <description><![CDATA[Хей-хо котаны. Эту неделю с вами @mr_skriming из Минска.]]></description>
+            <link>https://cssunderhood.ru/mr_skriming/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/mr_skriming/</guid>
+            <pubDate>Mon, 14 Sep 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[harisov]]></title>
+            <description><![CDATA[На этой неделе с вами Виталий @harisov Харисов.
+
+Работаю в Яндексе, живу в Симферополе, один из создателей @bem_ru
+
+Начнём через пару часов.]]></description>
+            <link>https://cssunderhood.ru/harisov/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/harisov/</guid>
+            <pubDate>Mon, 07 Sep 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[meuwka]]></title>
+            <description><![CDATA[Привет! Эту первую неделю осени с вами будет @meuwka, Минск.]]></description>
+            <link>https://cssunderhood.ru/meuwka/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/meuwka/</guid>
+            <pubDate>Mon, 31 Aug 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SelenIT2]]></title>
+            <description><![CDATA[Приветствую всех! На эту неделю честь вести этот аккаунт выпала мне — Илье Стрельцыну aka @SelenIT2 из Минска.]]></description>
+            <link>https://cssunderhood.ru/SelenIT2/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/SelenIT2/</guid>
+            <pubDate>Mon, 24 Aug 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[delaz]]></title>
+            <description><![CDATA[Привет!
+Эту неделю с вами буду я - Игорь Зенич @delaz из веб-студии @iDeus_team, Харьков.]]></description>
+            <link>https://cssunderhood.ru/delaz/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/delaz/</guid>
+            <pubDate>Mon, 17 Aug 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[denysdovhan]]></title>
+            <description><![CDATA[Хегей! Всем привет!
+Следующие 7 дней с вами буду я - Денис Довгань (@denysdovhan)!]]></description>
+            <link>https://cssunderhood.ru/denysdovhan/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/denysdovhan/</guid>
+            <pubDate>Mon, 10 Aug 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vdv73rus]]></title>
+            <description><![CDATA[Всем привет! Эту неделю по ту сторону аккаунта я, Дима Вислов aka @vdv73rus Просыпайтесь )]]></description>
+            <link>https://cssunderhood.ru/vdv73rus/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/vdv73rus/</guid>
+            <pubDate>Mon, 03 Aug 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[denisfedosov]]></title>
+            <description><![CDATA[Всем привет ) Меня зовут Денис @denisfedosov и люблю верстать. Работаю удаленно в ⚑ Passenger.me.]]></description>
+            <link>https://cssunderhood.ru/denisfedosov/</link>
+            <guid isPermaLink="true">https://cssunderhood.ru/denisfedosov/</guid>
+            <pubDate>Fri, 24 Jul 2015 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

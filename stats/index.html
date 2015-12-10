@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html dir="LTR" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Статистика • cssunderhood</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://cssunderhood.ru/rss.xml" title="cssunderhood" rel="alternate" type="application/rss+xml">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <meta property="og:site_name" content="cssunderhood">
+    <meta property="article:author" content="https://cssunderhood.ru/about/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@cssunderhood">
+    <meta property="description" content="Коллективный твиттер-аккаунт для верстальщиков, веб-дизайнеров и сочувствующих с новым автором каждую неделю.">
+    <meta name="og:url" content="https://cssunderhood.ru/stats/">
+    <meta name="og:image" content="https://i.imgur.com/GpzEJQ7.jpg?1">
+    <meta name="og:title" content="Статистика • cssunderhood">
+    <meta name="og:description" content="Коллективный твиттер-аккаунт для верстальщиков, веб-дизайнеров и сочувствующих с новым автором каждую неделю.">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav><a href="/stats/">Статистика</a> • <a href="/about/">О проекте</a> • <a href="/rss.xml">RSS</a> • <a href="https://github.com/iamstarkov/cssunderhood">GitHub</a> • <a href="https://google.com/?q=site:cssunderhood.ru+что-нибудь">Поиск</a>
+            </nav>
+            <div class="page-header">
+              <h1><a href="/">cssunderhood</a><small> / Статистика</small></h1>
+              <p class="hidden-xs">Коллективный твиттер-аккаунт для верстальщиков, веб-дизайнеров и сочувствующих с новым автором каждую неделю</p>
+            </div>
+          </div>
+        </div>
+        <div class="row hidden-xs">
+          <div class="col-md-12"><span class="text-danger">★ </span><a href="https://twitter.com/intent/tweet?url=http://cssunderhood.ru/stats/&amp;text=Статистика&amp;related=iamstarkov,shuvalov_anton">Твитнуть</a>, поделиться <a href="https://www.facebook.com/sharer.php?u=http://cssunderhood.ru/stats/&amp;t=Статистика">в Facebook</a> или <a href="http://vk.com/share.php?url=http://cssunderhood.ru/stats/&amp;title=Статистика">ВКонтакте</a><span class="text-danger"> ★</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="/css/styles.css">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <table class="host-stats">
+            <thead class="host-stats__head">
+              <tr class="host-stats__row host-stats__row_head">
+                <th class="host-stats__col host-stats__col_left"><span class="sortable">Автор</span></th>
+                <th class="host-stats__col col__author"><span class="sortable">Читатели</span></th>
+                <th class="host-stats__col"><span class="sortable">Твиты</span></th>
+                <th class="host-stats__col"><span class="tweet-stats tweet-stats_own sortable">Написал</span></th>
+                <th class="host-stats__col"><span class="tweet-stats tweet-stats_retweets sortable">Ретвитнул</span></th>
+                <th class="host-stats__col"><span class="tweet-stats tweet-stats_replies sortable">Ответил</span></th>
+                <th class="host-stats__col host-stats__col_retweeted rted--1p">
+                  <nobr><span class="sortable">Ретвитнули всего</span> / 
+                  </nobr>
+                </th>
+                <th class="host-stats__col host-stats__col_retweeted rted--2p"><span class="sortable">
+                    <nobr>на твит</nobr></span></th>
+                <th class="host-stats__col host-stats__col_favorited faved--1p">
+                  <nobr><span class="sortable">Фавнули всего</span> / 
+                  </nobr>
+                </th>
+                <th class="host-stats__col host-stats__col_favorited faved--2p"><span class="sortable">
+                    <nobr>на твит</nobr></span></th>
+              </tr>
+            </thead>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='20' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="https://twitter.com/cssunderhood" class="live">@viatsko</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 24%" class="tweet-graph">
+                    <div style="width: 61.971830985915496%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 23.004694835680752%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 15.023474178403756%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='14' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+14</span></span></td>
+              <td data-title="Твиты" data-sort='213' class="host-stats__col"><span class="cell"><span class="cell__content">213</span></span></td>
+              <td data-title="Написал" data-sort='132' class="host-stats__col"><span class="cell"><span class="cell__content">132</span></span></td>
+              <td data-title="Ретвитнул" data-sort='49' class="host-stats__col"><span class="cell"><span class="cell__content">49</span></span></td>
+              <td data-title="Ответил" data-sort='32' class="host-stats__col"><span class="cell"><span class="cell__content">32</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='14' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">14</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.11' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.11</span></span></td>
+              <td data-title="Фавнули всего" data-sort='138' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">138</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.05' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.05</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='19' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/grawlcore">@grawlcore</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 53%" class="tweet-graph">
+                    <div style="width: 67.74891774891775%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 26.19047619047619%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 6.0606060606060606%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='17' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+17</span></span></td>
+              <td data-title="Твиты" data-sort='462' class="host-stats__col"><span class="cell"><span class="cell__content">462</span></span></td>
+              <td data-title="Написал" data-sort='313' class="host-stats__col"><span class="cell"><span class="cell__content">313</span></span></td>
+              <td data-title="Ретвитнул" data-sort='121' class="host-stats__col"><span class="cell"><span class="cell__content">121</span></span></td>
+              <td data-title="Ответил" data-sort='28' class="host-stats__col"><span class="cell"><span class="cell__content">28</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='54' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">54</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.17' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.17</span></span></td>
+              <td data-title="Фавнули всего" data-sort='157' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">157</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='0.5' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">0.50</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='18' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/dshster">@dshster</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 48%" class="tweet-graph">
+                    <div style="width: 67.458432304038%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 18.28978622327791%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 14.251781472684085%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='36' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+36</span></span></td>
+              <td data-title="Твиты" data-sort='421' class="host-stats__col"><span class="cell"><span class="cell__content">421</span></span></td>
+              <td data-title="Написал" data-sort='284' class="host-stats__col"><span class="cell"><span class="cell__content">284</span></span></td>
+              <td data-title="Ретвитнул" data-sort='77' class="host-stats__col"><span class="cell"><span class="cell__content">77</span></span></td>
+              <td data-title="Ответил" data-sort='60' class="host-stats__col"><span class="cell"><span class="cell__content">60</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='67' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">67</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.24' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.24</span></span></td>
+              <td data-title="Фавнули всего" data-sort='398' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">398</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.4' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.40</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='17' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/fliptheweb">@fliptheweb</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 43%" class="tweet-graph">
+                    <div style="width: 68.76640419947506%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 15.223097112860891%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 16.010498687664043%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='96' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+96</span></span></td>
+              <td data-title="Твиты" data-sort='381' class="host-stats__col"><span class="cell"><span class="cell__content">381</span></span></td>
+              <td data-title="Написал" data-sort='262' class="host-stats__col"><span class="cell"><span class="cell__content">262</span></span></td>
+              <td data-title="Ретвитнул" data-sort='58' class="host-stats__col"><span class="cell"><span class="cell__content">58</span></span></td>
+              <td data-title="Ответил" data-sort='61' class="host-stats__col"><span class="cell"><span class="cell__content">61</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='172' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell cell--best"><span class="cell__content">172</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.66' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.66</span></span></td>
+              <td data-title="Фавнули всего" data-sort='1336' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell cell--best"><span class="cell__content">1336</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='5.1' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">5.10</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='16' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/talgautb">@talgautb</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 90%" class="tweet-graph">
+                    <div style="width: 58.734177215189874%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 32.53164556962025%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 8.734177215189874%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='14' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+14</span></span></td>
+              <td data-title="Твиты" data-sort='790' class="host-stats__col"><span class="cell"><span class="cell__content">790</span></span></td>
+              <td data-title="Написал" data-sort='464' class="host-stats__col"><span class="cell cell--best"><span class="cell__content">464</span></span></td>
+              <td data-title="Ретвитнул" data-sort='257' class="host-stats__col"><span class="cell"><span class="cell__content">257</span></span></td>
+              <td data-title="Ответил" data-sort='69' class="host-stats__col"><span class="cell"><span class="cell__content">69</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='76' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">76</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.16' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.16</span></span></td>
+              <td data-title="Фавнули всего" data-sort='673' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">673</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.45' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.45</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='15' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/vafelman">@vafelman</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 29%" class="tweet-graph">
+                    <div style="width: 41.08527131782946%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 25.968992248062015%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 32.945736434108525%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='53' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+53</span></span></td>
+              <td data-title="Твиты" data-sort='258' class="host-stats__col"><span class="cell"><span class="cell__content">258</span></span></td>
+              <td data-title="Написал" data-sort='106' class="host-stats__col"><span class="cell"><span class="cell__content">106</span></span></td>
+              <td data-title="Ретвитнул" data-sort='67' class="host-stats__col"><span class="cell"><span class="cell__content">67</span></span></td>
+              <td data-title="Ответил" data-sort='85' class="host-stats__col"><span class="cell"><span class="cell__content">85</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='11' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">11</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.1' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.10</span></span></td>
+              <td data-title="Фавнули всего" data-sort='219' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">219</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='2.07' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">2.07</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='14' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/exdeniz">@exdeniz</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 25%" class="tweet-graph">
+                    <div style="width: 43.63636363636363%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 24.545454545454543%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 31.818181818181817%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='55' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+55</span></span></td>
+              <td data-title="Твиты" data-sort='220' class="host-stats__col"><span class="cell"><span class="cell__content">220</span></span></td>
+              <td data-title="Написал" data-sort='96' class="host-stats__col"><span class="cell"><span class="cell__content">96</span></span></td>
+              <td data-title="Ретвитнул" data-sort='54' class="host-stats__col"><span class="cell"><span class="cell__content">54</span></span></td>
+              <td data-title="Ответил" data-sort='70' class="host-stats__col"><span class="cell"><span class="cell__content">70</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='68' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">68</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.71' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.71</span></span></td>
+              <td data-title="Фавнули всего" data-sort='676' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">676</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='7.04' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">7.04</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='13' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/mishcherin">@mishcherin</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 82%" class="tweet-graph">
+                    <div style="width: 50.97493036211699%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 24.094707520891365%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 24.930362116991645%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='42' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+42</span></span></td>
+              <td data-title="Твиты" data-sort='718' class="host-stats__col"><span class="cell"><span class="cell__content">718</span></span></td>
+              <td data-title="Написал" data-sort='366' class="host-stats__col"><span class="cell"><span class="cell__content">366</span></span></td>
+              <td data-title="Ретвитнул" data-sort='173' class="host-stats__col"><span class="cell"><span class="cell__content">173</span></span></td>
+              <td data-title="Ответил" data-sort='179' class="host-stats__col"><span class="cell"><span class="cell__content">179</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='101' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">101</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.28' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.28</span></span></td>
+              <td data-title="Фавнули всего" data-sort='945' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">945</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='2.58' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">2.58</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='12' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/akella">@akella</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 27%" class="tweet-graph">
+                    <div style="width: 12.13389121338912%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 41.84100418410041%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 46.02510460251046%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='146' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+146</span></span></td>
+              <td data-title="Твиты" data-sort='239' class="host-stats__col"><span class="cell"><span class="cell__content">239</span></span></td>
+              <td data-title="Написал" data-sort='29' class="host-stats__col"><span class="cell"><span class="cell__content">29</span></span></td>
+              <td data-title="Ретвитнул" data-sort='100' class="host-stats__col"><span class="cell"><span class="cell__content">100</span></span></td>
+              <td data-title="Ответил" data-sort='110' class="host-stats__col"><span class="cell"><span class="cell__content">110</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='72' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">72</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='2.48' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell cell--best"><span class="cell__content">2.48</span></span></td>
+              <td data-title="Фавнули всего" data-sort='605' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">605</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='20.86' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell cell--best"><span class="cell__content">20.86</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='11' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/bizi">@bizi</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 100%" class="tweet-graph">
+                    <div style="width: 40.31890660592256%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 27.22095671981777%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 32.46013667425969%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='36' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+36</span></span></td>
+              <td data-title="Твиты" data-sort='878' class="host-stats__col"><span class="cell cell--best"><span class="cell__content">878</span></span></td>
+              <td data-title="Написал" data-sort='354' class="host-stats__col"><span class="cell"><span class="cell__content">354</span></span></td>
+              <td data-title="Ретвитнул" data-sort='239' class="host-stats__col"><span class="cell"><span class="cell__content">239</span></span></td>
+              <td data-title="Ответил" data-sort='285' class="host-stats__col"><span class="cell"><span class="cell__content">285</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='65' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">65</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.18' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.18</span></span></td>
+              <td data-title="Фавнули всего" data-sort='815' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">815</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='2.3' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">2.30</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='10' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/arseniydmitriev">@arseniydmitriev</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 53%" class="tweet-graph">
+                    <div style="width: 49.676025917926566%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 27.213822894168466%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 23.110151187904968%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='68' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+68</span></span></td>
+              <td data-title="Твиты" data-sort='463' class="host-stats__col"><span class="cell"><span class="cell__content">463</span></span></td>
+              <td data-title="Написал" data-sort='230' class="host-stats__col"><span class="cell"><span class="cell__content">230</span></span></td>
+              <td data-title="Ретвитнул" data-sort='126' class="host-stats__col"><span class="cell"><span class="cell__content">126</span></span></td>
+              <td data-title="Ответил" data-sort='107' class="host-stats__col"><span class="cell"><span class="cell__content">107</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='53' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">53</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.23' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.23</span></span></td>
+              <td data-title="Фавнули всего" data-sort='492' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">492</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='2.14' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">2.14</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='9' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/Akurganow">@Akurganow</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 24%" class="tweet-graph">
+                    <div style="width: 40.93023255813954%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 51.162790697674424%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 7.906976744186047%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='37' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+37</span></span></td>
+              <td data-title="Твиты" data-sort='215' class="host-stats__col"><span class="cell"><span class="cell__content">215</span></span></td>
+              <td data-title="Написал" data-sort='88' class="host-stats__col"><span class="cell"><span class="cell__content">88</span></span></td>
+              <td data-title="Ретвитнул" data-sort='110' class="host-stats__col"><span class="cell"><span class="cell__content">110</span></span></td>
+              <td data-title="Ответил" data-sort='17' class="host-stats__col"><span class="cell"><span class="cell__content">17</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='18' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">18</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.2' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.20</span></span></td>
+              <td data-title="Фавнули всего" data-sort='56' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">56</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='0.64' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">0.64</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='8' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/mr_skriming">@mr_skriming</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 44%" class="tweet-graph">
+                    <div style="width: 27.225130890052355%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 47.64397905759162%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 25.130890052356023%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='-15' class="host-stats__col text-danger"><span class="cell"><span class="cell__content">−15</span></span></td>
+              <td data-title="Твиты" data-sort='382' class="host-stats__col"><span class="cell"><span class="cell__content">382</span></span></td>
+              <td data-title="Написал" data-sort='104' class="host-stats__col"><span class="cell"><span class="cell__content">104</span></span></td>
+              <td data-title="Ретвитнул" data-sort='182' class="host-stats__col"><span class="cell"><span class="cell__content">182</span></span></td>
+              <td data-title="Ответил" data-sort='96' class="host-stats__col"><span class="cell"><span class="cell__content">96</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='15' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">15</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.14' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.14</span></span></td>
+              <td data-title="Фавнули всего" data-sort='55' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">55</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='0.53' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">0.53</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='7' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/harisov">@harisov</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 52%" class="tweet-graph">
+                    <div style="width: 25.110132158590307%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 36.563876651982376%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 38.32599118942731%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='209' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+209</span></span></td>
+              <td data-title="Твиты" data-sort='454' class="host-stats__col"><span class="cell"><span class="cell__content">454</span></span></td>
+              <td data-title="Написал" data-sort='114' class="host-stats__col"><span class="cell"><span class="cell__content">114</span></span></td>
+              <td data-title="Ретвитнул" data-sort='166' class="host-stats__col"><span class="cell"><span class="cell__content">166</span></span></td>
+              <td data-title="Ответил" data-sort='174' class="host-stats__col"><span class="cell"><span class="cell__content">174</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='63' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">63</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.55' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.55</span></span></td>
+              <td data-title="Фавнули всего" data-sort='253' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">253</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='2.22' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">2.22</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='6' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/meuwka">@meuwka</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 87%" class="tweet-graph">
+                    <div style="width: 26.474442988204455%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 35.255570117955436%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 38.269986893840105%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='158' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+158</span></span></td>
+              <td data-title="Твиты" data-sort='763' class="host-stats__col"><span class="cell"><span class="cell__content">763</span></span></td>
+              <td data-title="Написал" data-sort='202' class="host-stats__col"><span class="cell"><span class="cell__content">202</span></span></td>
+              <td data-title="Ретвитнул" data-sort='269' class="host-stats__col"><span class="cell"><span class="cell__content">269</span></span></td>
+              <td data-title="Ответил" data-sort='292' class="host-stats__col"><span class="cell cell--best"><span class="cell__content">292</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='95' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">95</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.47' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.47</span></span></td>
+              <td data-title="Фавнули всего" data-sort='318' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">318</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.57' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.57</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='5' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/SelenIT2">@SelenIT2</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 9%" class="tweet-graph">
+                    <div style="width: 23.170731707317074%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 34.146341463414636%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 42.6829268292683%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='103' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+103</span></span></td>
+              <td data-title="Твиты" data-sort='82' class="host-stats__col"><span class="cell"><span class="cell__content">82</span></span></td>
+              <td data-title="Написал" data-sort='19' class="host-stats__col"><span class="cell"><span class="cell__content">19</span></span></td>
+              <td data-title="Ретвитнул" data-sort='28' class="host-stats__col"><span class="cell"><span class="cell__content">28</span></span></td>
+              <td data-title="Ответил" data-sort='35' class="host-stats__col"><span class="cell"><span class="cell__content">35</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='5' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">5</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.26' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.26</span></span></td>
+              <td data-title="Фавнули всего" data-sort='27' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">27</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.42' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.42</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='4' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/delaz">@delaz</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 94%" class="tweet-graph">
+                    <div style="width: 26.75544794188862%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 50.24213075060533%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 23.002421307506054%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='78' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+78</span></span></td>
+              <td data-title="Твиты" data-sort='826' class="host-stats__col"><span class="cell"><span class="cell__content">826</span></span></td>
+              <td data-title="Написал" data-sort='221' class="host-stats__col"><span class="cell"><span class="cell__content">221</span></span></td>
+              <td data-title="Ретвитнул" data-sort='415' class="host-stats__col"><span class="cell cell--best"><span class="cell__content">415</span></span></td>
+              <td data-title="Ответил" data-sort='190' class="host-stats__col"><span class="cell"><span class="cell__content">190</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='36' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">36</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.16' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.16</span></span></td>
+              <td data-title="Фавнули всего" data-sort='325' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">325</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.47' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.47</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='3' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/denysdovhan">@denysdovhan</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 66%" class="tweet-graph">
+                    <div style="width: 34.48275862068966%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 28.79310344827586%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 36.724137931034484%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='121' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+121</span></span></td>
+              <td data-title="Твиты" data-sort='580' class="host-stats__col"><span class="cell"><span class="cell__content">580</span></span></td>
+              <td data-title="Написал" data-sort='200' class="host-stats__col"><span class="cell"><span class="cell__content">200</span></span></td>
+              <td data-title="Ретвитнул" data-sort='167' class="host-stats__col"><span class="cell"><span class="cell__content">167</span></span></td>
+              <td data-title="Ответил" data-sort='213' class="host-stats__col"><span class="cell"><span class="cell__content">213</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='81' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">81</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.41' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.41</span></span></td>
+              <td data-title="Фавнули всего" data-sort='395' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">395</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.98' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.98</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='2' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/vdv73rus">@vdv73rus</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 42%" class="tweet-graph">
+                    <div style="width: 24.250681198910083%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 62.12534059945504%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 13.623978201634877%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='151' class="host-stats__col text-success"><span class="cell"><span class="cell__content">+151</span></span></td>
+              <td data-title="Твиты" data-sort='367' class="host-stats__col"><span class="cell"><span class="cell__content">367</span></span></td>
+              <td data-title="Написал" data-sort='89' class="host-stats__col"><span class="cell"><span class="cell__content">89</span></span></td>
+              <td data-title="Ретвитнул" data-sort='228' class="host-stats__col"><span class="cell"><span class="cell__content">228</span></span></td>
+              <td data-title="Ответил" data-sort='50' class="host-stats__col"><span class="cell"><span class="cell__content">50</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='72' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">72</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.81' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.81</span></span></td>
+              <td data-title="Фавнули всего" data-sort='199' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">199</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='2.24' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">2.24</span></span></td>
+            </tr>
+            <tr class="host-stats__row">
+              <td data-title="Автор" data-sort='1' class="host-stats__col host-stats__col_left col__author">
+                <nobr><a href="/denisfedosov">@denisfedosov</a>
+                </nobr>
+                <div class="tweet-graph__wrap">
+                  <div style="width: 29%" class="tweet-graph">
+                    <div style="width: 24.901185770750992%;" class="tweet-graph__bar tweet-graph__bar_own"></div>
+                    <div style="width: 39.52569169960475%;" class="tweet-graph__bar tweet-graph__bar_retweets"></div>
+                    <div style="width: 35.57312252964427%;" class="tweet-graph__bar tweet-graph__bar_replies"></div>
+                  </div>
+                </div>
+              </td>
+              <td data-title="Читатели" data-sort='371' class="host-stats__col text-success"><span class="cell cell--best"><span class="cell__content">+371</span></span></td>
+              <td data-title="Твиты" data-sort='253' class="host-stats__col"><span class="cell"><span class="cell__content">253</span></span></td>
+              <td data-title="Написал" data-sort='63' class="host-stats__col"><span class="cell"><span class="cell__content">63</span></span></td>
+              <td data-title="Ретвитнул" data-sort='100' class="host-stats__col"><span class="cell"><span class="cell__content">100</span></span></td>
+              <td data-title="Ответил" data-sort='90' class="host-stats__col"><span class="cell"><span class="cell__content">90</span></span></td>
+              <td data-title="Ретвитнули всего" data-sort='30' class="host-stats__col host-stats__col_kpi rted--1p"><span class="cell"><span class="cell__content">30</span></span></td>
+              <td data-title="Ретвитнули на 1 твит" data-sort='0.48' class="host-stats__col host-stats__col_kpi rted--2p"><span class="cell"><span class="cell__content">0.48</span></span></td>
+              <td data-title="Фавнули всего" data-sort='71' class="host-stats__col host-stats__col_kpi faved--1p"><span class="cell"><span class="cell__content">71</span></span></td>
+              <td data-title="Фавнули на 1 твит" data-sort='1.13' class="host-stats__col host-stats__col_kpi faved--2p"><span class="cell"><span class="cell__content">1.13</span></span></td>
+            </tr>
+          </table>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-md-12">
+          <p>Спасибо <a href="https://twitter.com/kinday">@kinday</a> за эту красивую таблицу</p>
+        </div>
+      </div>
+    </div>
+    <script src="/js/tablesort.js"></script>
+    <script src="/js/tablesort.numeric.js"></script>
+    <script>new Tablesort(document.querySelector('.host-stats'), { descending: true });</script><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center"><span class="text-danger">★ </span><a href="https://twitter.com/intent/tweet?url=http://cssunderhood.ru/stats/&amp;text=Статистика&amp;related=iamstarkov,shuvalov_anton">Твитнуть</a>, поделиться <a href="https://www.facebook.com/sharer.php?u=http://cssunderhood.ru/stats/&amp;t=Статистика">в Facebook</a> или <a href="http://vk.com/share.php?url=http://cssunderhood.ru/stats/&amp;title=Статистика">ВКонтакте</a><span class="text-danger"> ★</span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row footer text-center">
+        <div class="col-md-12">
+          <hr>
+          <p><a href="https://twitter.com/iamstarkov">@iamstarkov</a> c любовью разработал<br><a href="https://twitter.com/juwain">@juwain</a> бережно курирует авторов
+          </p>
+          <nav><a href="/stats/">Статистика</a> • <a href="/about/">О проекте</a> • <a href="/rss.xml">RSS</a> • <a href="https://github.com/iamstarkov/cssunderhood">GitHub</a> • <a href="https://google.com/?q=site:cssunderhood.ru+что-нибудь">Поиск</a>
+          </nav><br>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '55b97803de2e266d2f000796');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://track.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>
